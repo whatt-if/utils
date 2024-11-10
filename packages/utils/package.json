@@ -1,0 +1,29 @@
+{
+  "name": "@whatt-if/utils",
+  "version": "0.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Dg <dgbragas.dev@gmail.com>",
+  "main": "dist/cjs/index.js",
+  "types": "dist/types/cjs/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "exports": {
+    "import": "./dist/esm/index.mjs",
+    "require": "./dist/cjs/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whatt-if/linters.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
