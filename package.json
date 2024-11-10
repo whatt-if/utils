@@ -13,9 +13,14 @@
     "packages/*"
   ],
   "dependencies": {
-    "@changesets/cli": "^2.27.9"
+    "@changesets/cli": "^2.27.9",
+    "@whatt-if/eslint": "^1.1.0",
+    "@whatt-if/prettier": "^1.0.0"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
     "turbo": "^2.2.3",
     "typescript": "^5.6.3"
   },
