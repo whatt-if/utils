@@ -1,0 +1,13 @@
+addReviewers: true
+addAssignees: true
+
+reviewers:
+  - dgbragas
+
+assignees:
+  - ${{ github.actor }}
+
+numberOfReviewers: 1
+
+skipUsers:
+  - dependabot[bot]
