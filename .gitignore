@@ -1,0 +1,11 @@
+# pnpm
+
+# Node Modules (caso algum pacote ainda crie essa pasta)
+**/node_modules
+**/dist
+
+# Yarn Config e Loader
+.yarnrc.yml
+.pnp.cjs
+.pnp.loader.mjs
+.yarn/releases/
