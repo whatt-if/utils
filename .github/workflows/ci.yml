@@ -18,4 +18,4 @@ jobs:
     needs: setup
     uses: whatt-if/actions/.github/workflows/checks.yml@main
     secrets:
-      GH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      GH_TOKEN: ${{ secrets.GH_TOKEN }}
