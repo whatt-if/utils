@@ -1,7 +1,7 @@
 {
   "name": "@whatt-if/utils",
   "version": "0.0.0",
-  "description": "",
+  "description": "Reusable utility functions and helpers for React, TypeScript, and Next.js.",
   "license": "MIT",
   "author": "Dg <dgbragas.dev@gmail.com>",
   "main": "dist/cjs/index.js",

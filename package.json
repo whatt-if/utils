@@ -2,7 +2,7 @@
   "private": true,
   "name": "@whatt-if/utils",
   "version": "0.0.1",
-  "description": "",
+  "description": "Monorepo containing various shared utilities and tools for JavaScript, React, Next.js and more.",
   "repository": {
     "type": "git",
     "url": "https://github.com/whatt-if/linters.git"
